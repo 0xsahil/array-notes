@@ -108,7 +108,7 @@
 
 
 /* MAP method */
-    
+
 // map is used to iterate(print) complete array
 // const mapArray = [1,2,3,4,5]
 
@@ -132,3 +132,37 @@
         /* POP method */
 // guestList.pop();
 // console.log(guestList);
+
+
+/* Concat method */
+// concat() will add two arrays and create a new array
+// concat() doesn't change in existing array
+// concat() return a new array
+// syntax : arrayName.concat(arr1,.......,arrX)
+// example:
+// const arr1 =['a','b']
+// const arr2 =['c','d']
+
+// const newArr = arr1.concat(arr2);
+
+// Spread operator :
+// const subArr = ['c','d']
+// const mainArr = ['a','b',...subArr]
+// ['a','b','c','d']
+
+
+                /* Practice Question */
+
+// Create an array with name allGuests which contains name of all guests coming to party , there are two parties and you have to saperate  guests equally to both party
+// const allGuests = ['guest1','guest2','guest3','guest4']
+
+// const list1 = []
+// for (let i = 0; i < (allGuests.length/2); i++){
+//         list1.push(allGuests[i]);
+// }
+// console.log("list one",list1);
+// const list2 = []
+// for (let i = (allGuests.length / 2); i < allGuests.length; i++){
+//         list2.push(allGuests[i]);
+// }
+// console.log("list Two ",list2);
